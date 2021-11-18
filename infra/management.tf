@@ -27,8 +27,8 @@ resource "azurerm_storage_container" "ctn" {
   name                  = "${var.prefix}${var.environment}ctn"
   storage_account_name  = azurerm_storage_account.stg01.name
 
-   #lifecycle {
-    #prevent_destroy = true
-  #}
+   lifecycle {
+    prevent_destroy = true
+  }
 }
   
