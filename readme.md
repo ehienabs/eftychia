@@ -9,7 +9,7 @@
 
 ## About <a name = "about"></a>
 Eutuxia provisions the cloud infrastructure for bootstraping a Kubernetes cluster on Azure. She only provisions the compute resources —VMs, Load Balancer, Disks etc. and not a functioning kubernetes cluster.
-The components, networking routes, certificate authority etc., that does the scheduling and pod maintainance will need to be installed separately.
+The components, networking routes, certificate authority etc., that does scheduling and pod maintainance will need to be installed separately.
 
 
 ## Getting Started <a name = "getting_started"></a>
