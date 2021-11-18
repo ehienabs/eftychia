@@ -13,7 +13,7 @@ The components, networking routes, certificate authority etc., that does the sch
 
 
 ## Getting Started <a name = "getting_started"></a>
-After cloning the directory, to run Terraform locally, you can authenticate using the command line, then configuring the Azure provider.
+After cloning the directory, to run Terraform locally, you can authenticate using the command line, then configure the Azure provider.
 [Authenticating with Azure Provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/azure_cli)
 
 ### Prerequisites
