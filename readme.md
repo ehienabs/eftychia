@@ -34,7 +34,7 @@ Eutuxia provisions the following compute resources:
 * One Security Group and its Security rules
 * One Load Balancer
 * Two Availabilty Sets
-* Five Virtual Machines and their SSH keys. (Two Control VMs and Worker VMs)
+* Five Virtual Machines and their SSH keys. (Two Control VMs and three Worker VMs)
 * Five Disks
 * Five Network Interfaces
 * Six Static Ip addresses
