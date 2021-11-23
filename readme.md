@@ -25,7 +25,7 @@ After cloning the repo, to run Terraform locally, you first authenticate using t
 ## Provisioning the infrastructure <a name = "provision_infra"></a>
 
 After configuring the provider, you can assign variables by editing the tf.vars file, then declare them using the variables file.
-Running "terraform apply" within the infra directory provisions the resources.
+Running `terraform apply` within the infra directory provisions the resources.
 
 ## Usage <a name = "usage"></a>
 
@@ -39,3 +39,8 @@ Eutuxia provisions the following compute resources:
 * Five Disks
 * Five Network Interfaces
 * Six Static Ip addresses
+* One Storage Container to keep the state file
+
+<img width="935" alt="Annotation 2021-10-13 110707" src="https://user-images.githubusercontent.com/78366369/143015222-f56e8077-ec43-4f81-ba15-dde417af8cd8.png">
+
+<img width="945" alt="Annotation 2021-10-13 110637" src="https://user-images.githubusercontent.com/78366369/143015267-3b585018-3d4f-49eb-a104-b2f13e5176f8.png">
