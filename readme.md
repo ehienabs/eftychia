@@ -24,7 +24,7 @@ After cloning the repo, to run Terraform locally, you first authenticate using t
 
 ## Provisioning the infrastructure <a name = "provision_infra"></a>
 
-After configuring the provider, you can assign variables by editing the [tf.vars](infra/tf.vars) file, then declaring them using the [variables.tf](infra/variables.tf) file.
+After configuring the provider, you can assign variables by editing the [tf.vars](infra/terraform.vars) file, then declaring them using the [variables.tf](infra/variables.tf) file.
 Running `terraform apply` within the [infra](/infra) directory provisions the resources.
 
 ## Usage <a name = "usage"></a>
