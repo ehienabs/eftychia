@@ -13,7 +13,7 @@ The components, networking routes, certificate authority etc., that does schedul
 
 
 ## Getting Started <a name = "getting_started"></a>
-After cloning the repo, to run Terraform locally, you first authenticate using the command line (for dev and testing), then configure the Azure provider.
+After cloning the repo, to run Terraform locally, you first authenticate using the command line (for dev and testing), after which you configure the Azure provider.
 
 [Authenticating with Azure Provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/azure_cli)
 
@@ -24,7 +24,7 @@ After cloning the repo, to run Terraform locally, you first authenticate using t
 
 ## Provisioning the infrastructure <a name = "provision_infra"></a>
 
-After configuring the provider, you can assign variables by editing the [terraform.tfvars](infra/terraform.tfvars) file, then declaring them using the [variables.tf](infra/variables.tf) file.
+After configuring the provider, you can assign variables by editing the [terraform.tfvars](infra/terraform.tfvars) file, then declare them using the [variables.tf](infra/variables.tf) file.
 Running `terraform apply` within the [infra](/infra) directory provisions the resources.
 
 ## Usage <a name = "usage"></a>
