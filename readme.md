@@ -8,7 +8,7 @@
 + [Usage](#usage)
 
 ## About <a name = "about"></a>
-Eftychia provisions the cloud infrastructure for bootstraping a Kubernetes cluster on Azure. She only provisions the compute resources —VMs, Load Balancer, Disks etc. and not a functioning kubernetes cluster.
+Eftychia provisions the cloud infrastructure for bootstraping a Kubernetes cluster on Azure. She only provisions the compute resources —VMs, Load Balancer, Disks etc., not a functioning kubernetes cluster.
 The components, networking routes, certificate authority etc., that does scheduling and pod maintainance will need to be installed separately.
 
 
@@ -24,8 +24,8 @@ After cloning the repo, to run Terraform locally, you first authenticate using t
 
 ## Provisioning the infrastructure <a name = "provision_infra"></a>
 
-After configuring the provider, you can assign variables by editing the tf.vars file, then declare them using the variables file.
-Running `terraform apply` within the infra directory provisions the resources.
+After configuring the provider, you can assign variables by editing the [tf.vars](infra/tf.vars) file, then declaring them using the [variables.tf](infra/variables.tf) file.
+Running `terraform apply` within the [infra](/infra) directory provisions the resources.
 
 ## Usage <a name = "usage"></a>
 
@@ -34,12 +34,12 @@ Eutuxia provisions the following compute resources:
 * One Subnet within the Network
 * One Security Group and its Security rules
 * One Load Balancer
+* One Storage Container to keep the state file
 * Two Availabilty Sets
 * Five Virtual Machines and their SSH keys. (Two Control VMs and three Worker VMs)
 * Five Disks
 * Five Network Interfaces
 * Six Static Ip addresses
-* One Storage Container to keep the state file
 
 <img width="935" alt="Annotation 2021-10-13 110707" src="https://user-images.githubusercontent.com/78366369/143015222-f56e8077-ec43-4f81-ba15-dde417af8cd8.png">
 
